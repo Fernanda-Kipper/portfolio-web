@@ -1,5 +1,11 @@
 .wrapper {
-    padding: 0 62px;
+    padding: 0 42px;
     display: flex;
     flex-direction: column;
+}
+
+@media (min-width: 1080px) {
+    .wrapper {
+        padding: 0 62px;
+    }
 }
